@@ -7,7 +7,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("554282679718379543")
 setInterval(function() {
 channel.send(`***spam***`);
-}, 4)
+}, 10)
 })
 
 client.login(process.env.BOT_TOKEN);
